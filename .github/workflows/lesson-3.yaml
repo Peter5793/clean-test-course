@@ -6,13 +6,13 @@ on:
       - lesson-3
 jobs:
   function_test:
-    runs-on : ubuntu-latest
+    runs-on: ubuntu-latest
     defaults:
       run: 
         working-directory: frontend
     steps:
       - uses: actions/checkout@v4
-      - run : npm install
+      - run: npm install
       - name: Run functional tests
         run: npm test
 
