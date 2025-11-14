@@ -37,7 +37,7 @@ describe('Test Order', () => {
     );
     //Assert: replace the return true.
     await waitFor(() => {
-      return true;
+      expect().toHaveLength();
     });
   });
 
@@ -63,7 +63,7 @@ describe('Test Order', () => {
     );
     //Assert: replace the return true.
     await waitFor(() => {
-      return true;
+      expect().toHaveLength();
     });
   });
 });
